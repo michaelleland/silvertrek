@@ -1,0 +1,23 @@
+// Place all the styles related to the static_pages controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+.header {
+	
+}
+
+.page {
+	background-color: lightbrown;
+	height: 750px;
+}
+
+.line {
+	background-image: image_url("line.png");
+	background-repeat: repeat-y;
+	height: 600px;
+	width: 0px;	
+}
+
+.green {
+	background-color: green;
+}
