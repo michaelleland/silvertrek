@@ -2,22 +2,43 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
+$bookkeeping-line-color: rgba(133,133,133,1);
+$technical-line-color: rgba(255,255,255,1);
+$bookkeeping-background-color: rgba(133,133,133,0);
+$technical-background-color: rgba(133,133,133,0.75);
+
 .header {
 	
 }
 
-.page {
-	background-color: lightbrown;
-	height: 750px;
+
+.topper {
+	padding-top: 30px;
+	padding-bottom: 30px;
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
 }
 
-.line {
-	background-image: image_url("line.png");
-	background-repeat: repeat-y;
-	height: 600px;
-	width: 0px;	
+.left > * {
+	background-color: $bookkeeping-background-color;	
+}
+.far-left {
+	
 }
 
-.green {
-	background-color: green;
+.left-central {
+	border-left: 25px solid $bookkeeping-line-color;
 }
+
+.right > * {
+	background-color: $technical-background-color;
+}
+.right-central {
+	border-right: 	25px solid $technical-line-color;
+	text-align: right;
+}
+
+.far-right {
+	
+}
+
