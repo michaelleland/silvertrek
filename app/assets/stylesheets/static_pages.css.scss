@@ -2,10 +2,12 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
+$silvertrek-blue: rgba(0,169,224,1);
+
 $bookkeeping-line-color: rgba(133,133,133,1);
-$technical-line-color: rgba(255,255,255,1);
+$technical-line-color: $silvertrek-blue;
 $bookkeeping-background-color: rgba(133,133,133,0);
-$technical-background-color: rgba(133,133,133,0.75);
+$technical-background-color: rgba(133,133,133,0.65);
 
 .header {
 	
@@ -15,8 +17,23 @@ $technical-background-color: rgba(133,133,133,0.75);
 .topper {
 	padding-top: 30px;
 	padding-bottom: 30px;
-	border-top: 1px solid black;
 	border-bottom: 1px solid black;
+}
+
+h2 {
+	font: Verdana;
+	text-transform: uppercase;
+	.logo-silver {
+		font-weight: bold;
+	}
+	.logo-blue {
+		color: $silvertrek-blue;
+		font-weight: bold;
+	}
+}
+
+.close {
+	padding-top: 0px;
 }
 
 .left > * {
@@ -28,6 +45,9 @@ $technical-background-color: rgba(133,133,133,0.75);
 
 .left-central {
 	border-left: 25px solid $bookkeeping-line-color;
+	.head-shot-circle {
+		margin-left: -69px;
+	}
 }
 
 .right > * {
@@ -36,9 +56,12 @@ $technical-background-color: rgba(133,133,133,0.75);
 .right-central {
 	border-right: 	25px solid $technical-line-color;
 	text-align: right;
+	.head-shot-circle {
+		margin-right: -71px;
+	}
 }
 
 .far-right {
-	
+	border-top: 100px $technical-background-color;
 }
 
