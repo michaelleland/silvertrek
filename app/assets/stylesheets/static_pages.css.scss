@@ -43,10 +43,20 @@ h2 {
 	
 }
 
+.head-shot-circle {
+}
+
 .left-central {
 	border-left: 25px solid $bookkeeping-line-color;
 	.head-shot-circle {
 		margin-left: -69px;
+	}
+}
+
+.left-header {
+	border-left: 10px solid $bookkeeping-line-color;
+	h2 {
+		margin-left: 6px;
 	}
 }
 
@@ -57,7 +67,7 @@ h2 {
 	border-right: 	25px solid $technical-line-color;
 	text-align: right;
 	.head-shot-circle {
-		margin-right: -71px;
+		
 	}
 }
 
@@ -65,3 +75,9 @@ h2 {
 	border-top: 100px $technical-background-color;
 }
 
+.right-header {
+	border-right: 10px solid $technical-line-color;
+	h2 {
+		margin-right: 6px;
+	}
+}
