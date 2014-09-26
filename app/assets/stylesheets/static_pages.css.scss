@@ -7,7 +7,8 @@ $silvertrek-blue: rgba(0,169,224,1);
 $bookkeeping-line-color: rgba(133,133,133,1);
 $technical-line-color: $silvertrek-blue;
 $bookkeeping-background-color: rgba(133,133,133,0);
-$technical-background-color: rgba(133,133,133,0.65);
+$technical-background-color: rgba(133,133,133,0.55);
+$bottom-background-color: rgba(133,133,133,.25);
 
 .header {
 	
@@ -82,3 +83,22 @@ h2 {
 	}
 }
 
+.adjust {
+	height: 2.15em;
+}
+
+
+.bottom {
+	background-color: $bottom-background-color;
+}
+
+.no-pip {
+	width: 525px;
+}
+
+.no-pip > ul > li {
+	list-style-type: none;
+	strong {
+		color: $silvertrek-blue;
+	}
+}
