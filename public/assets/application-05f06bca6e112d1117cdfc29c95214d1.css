@@ -1,0 +1,146 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or vendor/assets/stylesheets of plugins, if any, can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the top of the
+ * compiled file, but it's generally better to create a new file per style scope.
+ *
+
+
+ */
+
+@import "bootstrap-sprockets";
+@import "bootstrap";
+/* line 1, /vagrant/silvertrek/app/assets/stylesheets/shared.css.scss */
+body {
+  background-image: url(/assets/stardust.png);
+}
+
+/* line 5, /vagrant/silvertrek/app/assets/stylesheets/shared.css.scss */
+.main-content {
+  background-image: url(/assets/lightpaperfibers.png);
+  background-repeat: repeat;
+  -webkit-box-shadow: 11px 11px 5px 0px rgba(50, 50, 50, 0.75);
+          box-shadow: 11px 11px 5px 0px rgba(50, 50, 50, 0.75);
+}
+
+/* line 11, /vagrant/silvertrek/app/assets/stylesheets/shared.css.scss */
+.footer {
+  color: white;
+  font-weight: bold;
+}
+
+/* line 17, /vagrant/silvertrek/app/assets/stylesheets/shared.css.scss */
+.adjust-footer {
+  width: 45px;
+}
+
+/* line 22, /vagrant/silvertrek/app/assets/stylesheets/shared.css.scss */
+.adjust-footer-2 {
+  width: 100px;
+}
+/* line 18, /vagrant/silvertrek/app/assets/stylesheets/static_pages.css.scss */
+.topper {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  border-bottom: 1px solid black;
+}
+
+/* line 24, /vagrant/silvertrek/app/assets/stylesheets/static_pages.css.scss */
+h2 {
+  font: Verdana;
+  text-transform: uppercase;
+}
+/* line 27, /vagrant/silvertrek/app/assets/stylesheets/static_pages.css.scss */
+h2 .logo-silver {
+  font-weight: bold;
+}
+/* line 30, /vagrant/silvertrek/app/assets/stylesheets/static_pages.css.scss */
+h2 .logo-blue {
+  color: #00a9e0;
+  font-weight: bold;
+}
+
+/* line 36, /vagrant/silvertrek/app/assets/stylesheets/static_pages.css.scss */
+.close {
+  padding-top: 0px;
+}
+
+/* line 40, /vagrant/silvertrek/app/assets/stylesheets/static_pages.css.scss */
+.left > * {
+  background-color: rgba(133, 133, 133, 0);
+}
+
+/* line 50, /vagrant/silvertrek/app/assets/stylesheets/static_pages.css.scss */
+.left-central {
+  border-left: 25px solid #858585;
+}
+/* line 52, /vagrant/silvertrek/app/assets/stylesheets/static_pages.css.scss */
+.left-central .head-shot-circle {
+  margin-left: -69px;
+}
+
+/* line 57, /vagrant/silvertrek/app/assets/stylesheets/static_pages.css.scss */
+.left-header {
+  border-left: 10px solid #858585;
+}
+/* line 59, /vagrant/silvertrek/app/assets/stylesheets/static_pages.css.scss */
+.left-header h2 {
+  margin-left: 6px;
+}
+
+/* line 64, /vagrant/silvertrek/app/assets/stylesheets/static_pages.css.scss */
+.right > * {
+  background-color: rgba(133, 133, 133, 0.55);
+}
+
+/* line 67, /vagrant/silvertrek/app/assets/stylesheets/static_pages.css.scss */
+.right-central {
+  border-right: 25px solid #00a9e0;
+  text-align: right;
+}
+/* line 70, /vagrant/silvertrek/app/assets/stylesheets/static_pages.css.scss */
+.right-central .head-shot-circle {
+  margin-left: -5px;
+}
+
+/* line 75, /vagrant/silvertrek/app/assets/stylesheets/static_pages.css.scss */
+.far-right {
+  border-top: 100px rgba(133, 133, 133, 0.55);
+}
+
+/* line 79, /vagrant/silvertrek/app/assets/stylesheets/static_pages.css.scss */
+.right-header {
+  border-right: 10px solid #00a9e0;
+}
+/* line 81, /vagrant/silvertrek/app/assets/stylesheets/static_pages.css.scss */
+.right-header h2 {
+  margin-right: 6px;
+}
+
+/* line 86, /vagrant/silvertrek/app/assets/stylesheets/static_pages.css.scss */
+.adjust {
+  height: 2.15em;
+}
+
+/* line 91, /vagrant/silvertrek/app/assets/stylesheets/static_pages.css.scss */
+.bottom {
+  background-color: rgba(133, 133, 133, 0.25);
+}
+
+/* line 95, /vagrant/silvertrek/app/assets/stylesheets/static_pages.css.scss */
+.no-pip {
+  width: 525px;
+}
+
+/* line 99, /vagrant/silvertrek/app/assets/stylesheets/static_pages.css.scss */
+.no-pip > ul > li {
+  list-style-type: none;
+}
+/* line 101, /vagrant/silvertrek/app/assets/stylesheets/static_pages.css.scss */
+.no-pip > ul > li strong {
+  color: #00a9e0;
+}
