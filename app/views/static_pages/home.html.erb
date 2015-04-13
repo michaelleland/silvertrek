@@ -1,9 +1,4 @@
-<div class="row header">
-	<div class="col-sm-1 col-sm-offset-1"><%= image_tag "side by side logo.png" %></div>
-	<div class="col-sm-3 col-sm-offset-6"><h1>360-667-3340</h1></div>
-
-</div>
-
+<%= render "shared/header" %>
 <div class="row topper">
 	<div class="col-sm-8 col-sm-offset-2">
 		<h1>Two distinct divisions. One ambititious goal.</h1>
@@ -17,18 +12,22 @@
 				<h2><span class="logo-silver">Silver</span><span class="logo-blue">trek</span> Services</h2>
 			</div>
 			<div class="col-sm-10 col-sm-offset-2 left-central">
-				<p>Really, it's just <strong>bookkeeping</strong> for the 21st century. Paperless, effortless, tear-free administrative management.</p>
-				<p>See, we're ready to change the way construction companies think about bookkeeping. We're going to provide the entire construction and contracting industry what we've become used to in our personal life--easy, fast information about their jobs. We are building a team and the systems to grow.</p>
+				<p>Really, it's just <strong>bookkeeping</strong> for the 21st century.
+					Paperless, effortless, tear-free administrative management.</p>
+				<p>See, we're ready to change the way construction companies think
+					about bookkeeping. We're going to provide the entire construction and
+					contracting industry what we've become used to in our personal life--
+					easy, fast information about their jobs. We are building a team and
+					the systems to grow.</p>
 
-				<p>We provide software and a service--click here for the whole list of our services--and we only succeed when you do.</p>
-				<br/>
+				<p>We provide a service bound together with software, and we only succeed when you do.</p>
 			</div>
 		</div>
 
 		<div class="row">
 			<div class="col-sm-10 col-sm-offset-2 left-central">
 				<h3>Flexible.</h3>
-				<div class="snug"><p>fees flex with your revenue</p></div>
+				<div class="snug"><p><a href="services#fees">fees</a> flex with your revenue</p></div>
 			</div>
 			<div class="col-sm-10 col-sm-offset-2 left-central">
 				<h3>Considered.</h3>
@@ -41,43 +40,25 @@
 		</div>
 
 		<div class="row">
-			<div class="col-sm-10 col-sm-offset-2 left-central">
-				<br/>
-				<div class="left-header">
-					<h2>Perceptive Data Entry</h2>
-				</div>
-			</div>
-			<div class="col-sm-10 col-sm-offset-2 left-central">
-				<p>Perhaps the most basic (and the most reviled) task among business owners is the day-to-day
-					entry of all the masses of generated data of a successful business. You email stuff in (invoices, receipts,
-					requests for owner draw etc.), and the little Silvertrek elf takes care of it. Plus, given we
-					have so much "boring" stuff to do, we spend time, effort, and money making this task smarter
-					and easier to give you the most accurate and fast feedback.
-				</p>
-			</div>
-			<div class="col-sm-10 col-sm-offset-2 left-central">
-				<div class="row">
-					<div class="col-sm-1 col-sm-offset-2 head-shot-circle" title="owen@silvertreksystems.com">
-						<%= image_tag "owen_circle_small.png" %>
-					</div>
-					<div class="col-sm-5 col-sm-offset-1">
-						<h4>Owen Granger</h4>
-						<p>Accountant, Battle Ground, WA</p>
-					</div>
-				</div>
-			</div>
 			<div class="col-sm-10  col-sm-offset-2 left-central">
 				<div class="left-header">
 					<h2>Accounting</h2>
 				</div>
 			</div>
 			<div class="col-sm-10 col-sm-offset-2 left-central">
-				<p>We provide you accurate financial statements once a month whether you want
-				'em or not. And if you don't already know how, we teach you to read them and
-				to see trends and patterns. Our firm belief is that these reports aren't mere
-				historical documents, but tools that you can use to intuit the best path in the
-				future.
-				</p>
+					<div class="row">
+						<div class="col-sm-12">
+							<p>We provide you accurate financial statements once a month whether you want
+							'em or not. And if you don't already know how, we teach you to read them and
+							to see trends and patterns. Our firm belief is that these reports aren't mere
+							historical documents, but tools that you can use to intuit the best path in the
+							future.
+							</p>
+						</div>
+					<div class="col-sm-6 col-sm-offset-6">
+						<a class="btn btn-default" href="services#accounting">More about accounting >></a>
+					</div>
+				</div>
 			</div>
 			<div class="col-sm-10 col-sm-offset-2 left-central">
 				<div class="row">
@@ -86,21 +67,62 @@
 					</div>
 					<div class="col-sm-5 col-sm-offset-1">
 						<h4>Kelly Davis</h4>
-						<p>Certifiable Accountant, Battle Ground, WA</p>
+						<p>Keeper of the Books, Battle Ground, WA</p>
 					</div>
 				</div>
 			</div>
+
+			<div class="col-sm-10 col-sm-offset-2 left-central">
+				<br/>
+				<div class="left-header">
+					<h2>Tools</h2>
+				</div>
+			</div>
+			<div class="col-sm-10 col-sm-offset-2 left-central">
+				<div class="row">
+					<div class="col-sm-12">
+						<p>The right information has to get to the right person at the right
+							time. This takes a lot of work, but it also takes the right tools.
+							We've carefully selected and built software to create the experience
+							for you, the contractor--tools that allow you to Understand, Explore
+							and Control.
+						</p>
+					</div>
+					<div class="col-sm-6 col-sm-offset-6">
+						<a class="btn btn-default" href="services#tools">Read about our tools >></a>
+					</div>
+				</div>
+			</div>
+			<div class="col-sm-10 col-sm-offset-2 left-central">
+				<div class="row">
+					<div class="col-sm-1 col-sm-offset-2 head-shot-circle" title="owen@silvertreksystems.com">
+						<%= image_tag "owen_circle_small.png" %>
+					</div>
+					<div class="col-sm-5 col-sm-offset-1">
+						<h4>Owen Granger</h4>
+						<p>Keeper of the Books, Battle Ground, WA</p>
+					</div>
+				</div>
+			</div>
+
 			<div class="col-sm-10  col-sm-offset-2 left-central">
 				<div class="left-header">
 					<h2>and so much more</h2>
 				</div>
 			</div>
 			<div class="col-sm-10 col-sm-offset-2 left-central">
-				<p>Most bookkeepers end up there, where you see the word "Accounting." But at that point
-				we're just getting started. Payroll, Human Resource admin work, safety report
-				and inspection record-keeping, IT and security management... Our goal is to grow alongside
-				our customers, providing them all the office staff they need.
-				</p>
+				<div class="row">
+					<div class="col-sm-12">
+						<p>Most bookkeepers end up there, where you see the word "Accounting." But at that point
+						we're just getting started. Free onsite consulting, Human Resource admin work, safety report
+						and inspection record-keeping, IT and security management... Our goal is to grow alongside
+						our customers, providing them all the office staff they need.
+						</p>
+					</div>
+					<div class="col-sm-6 col-sm-offset-6">
+						<a class="btn btn-default" href="services#tools">Other Services >></a>
+					</div>
+				</div>
 			</div>
 			<div class="col-sm-10 col-sm-offset-2 left-central">
 				<div class="row">
@@ -108,8 +130,8 @@
 						<%= image_tag "tiff_circle_small.png" %>
 					</div>
 					<div class="col-sm-5 col-sm-offset-1" title="tiffany@silvertreksystems.com">
-						<h4>Tiffany Massie</h4>
-						<p>Administrative Manager, Palmer, AK</p>
+						<h4>Molly Homola</h4>
+						<p>Scribe, Battle Ground, WA</p>
 					</div>
 				</div>
 			</div>
@@ -274,3 +296,4 @@
 	</div>
 
 </div>
+<%= render "shared/footer" %>

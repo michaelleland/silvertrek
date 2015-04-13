@@ -102,6 +102,12 @@ h2 {
 		margin-left: 6px;
 	}
 }
+.left-header-blue {
+	border-left: 10px solid $technical-line-color;
+	h2 {
+		margin-left: 6px;
+	}
+}
 
 .right > * {
 	background-color: $technical-background-color;
@@ -142,5 +148,12 @@ h2 {
 	list-style-type: none;
 	strong {
 		color: $silvertrek-blue;
+	}
+}
+
+#tools {
+	background-color: $technical-background-color;
+	strong {
+		color: $technical-line-color;
 	}
 }
