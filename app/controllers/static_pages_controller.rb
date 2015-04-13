@@ -4,4 +4,7 @@ class StaticPagesController < ApplicationController
 
   def services
   end
+
+  def consulting
+  end
 end
